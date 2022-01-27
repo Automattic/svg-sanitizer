@@ -61,9 +61,9 @@ class AllowedAttributesCustom extends enshrined\svgSanitize\data\AllowedAttribut
 				'ry',
 				'space',
 				'to',
-				'unicode-range', // Deprecated but still in use, remove in 2023.
 				'underline-position', 
 				'underline-thickness',
+				'unicode-range', // Deprecated but still in use, remove in 2023.
 				'units-per-em',
 				'y',
 				'x',
