@@ -47,6 +47,7 @@ class AllowedAttributesCustom extends enshrined\svgSanitize\data\AllowedAttribut
 		return array_merge(
 			array(
 				// The extra attributes allowable
+				'bbox', // Deprecated but still in use, remove in 2023.
 				'cy',
 				'cx',
 				'descent',
@@ -55,10 +56,14 @@ class AllowedAttributesCustom extends enshrined\svgSanitize\data\AllowedAttribut
 				'fillRule',
 				'from',
 				'horiz-adv-x',
+				'panose-1', // Deprecated but still in use, remove in 2023.
 				'rx',
 				'ry',
 				'space',
 				'to',
+				'underline-position', 
+				'underline-thickness',
+				'unicode-range', // Deprecated but still in use, remove in 2023.
 				'units-per-em',
 				'y',
 				'x',
