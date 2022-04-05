@@ -54,6 +54,7 @@ class AllowedAttributesCustom extends enshrined\svgSanitize\data\AllowedAttribut
 				'enable-background',
 				'fill',
 				'fillRule',
+				'filterUnits',
 				'from',
 				'horiz-adv-x',
 				'panose-1', // Deprecated but still in use, remove in 2023.
